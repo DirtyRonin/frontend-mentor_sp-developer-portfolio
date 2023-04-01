@@ -16,7 +16,7 @@ const spaceGrotesk = Space_Grotesk({
 export default function Home() {
   return (
     <div className={`flex flex-col pt-5 gap-16 ${spaceGrotesk.className} text-white`}>
-      {/* <section className="header">
+      <section className="header">
         <div className="relative overflow-x-clip grid grid-cols-[repeat(auto-fit,minmax(174px,50%))] justify-center ">
           <div className="absolute right-1/2 top-1/2 translate-y-[-64px] w-[530px] h-[129px]">
             <Image src="/img/pattern-rings.svg" alt="" width={530} height={129} />
@@ -91,26 +91,24 @@ export default function Home() {
             <ProjectList />
           </div>
         </div>
-      </section> */}
+      </section>
       <section className="contact">
-        <div className="grid gap-[50px] py-[60px] px-4">
-          <div className="relative">
-            <div className="text-center">
-              <h2 className="text-font-mobile-l">contact</h2>
-              <p className="text-font-mobile-experience-text text-theme-gray">
-                I would love to hear about your project and how I could help. Please fill in the form, and I&apos;ll get back to you as soon as possible.
-              </p>
-            </div>
-            <ContactForm />
-            <div className="absolute overflow-y-clip right-1/2 bottom-5 w-[530px] h-[129px]">
-              <Image src="/img/pattern-rings.svg" alt="" width={530} height={129} />
-            </div>
+        <div className="relative grid gap-[50px] py-[60px] px-4 bg-theme-black ">
+          <div className="text-center grid gap-5">
+            <h2 className="capitalize text-font-mobile-l ">contact</h2>
+            <p className="text-font-mobile-experience-text text-white/50">
+              I would love to hear about your project and how I could help. Please fill in the form, and I&apos;ll get back to you as soon as possible.
+            </p>
+          </div>
+          <ContactForm />
+          <div className="absolute overflow-y-clip right-1/2 bottom-[82px] w-[530px] h-[129px]">
+            <Image src="/img/pattern-rings.svg" alt="" width={530} height={129} />
           </div>
         </div>
-      </section>
-      <section>
-        <div className="border-t pt-10 pb-[60px] px-4">
-          <Socials />
+        <div className="bg-theme-black">
+          <div className="border-t-2 border-white/50 pt-10 pb-[60px] mx-4 ">
+            <Socials />
+          </div>
         </div>
       </section>
     </div>

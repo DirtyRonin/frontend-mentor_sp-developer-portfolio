@@ -6,7 +6,7 @@ export function ContactForm() {
   return (
     <div className="w-full">
       <form>
-        <div className="grid bg-black gap-8">
+        <div className="grid bg-transparent gap-8">
           <InputForm name="name" placeholder="name" />
           <InputForm name="email" placeholder="email" />
           <TextAreaForm name="message" placeholder="message" />

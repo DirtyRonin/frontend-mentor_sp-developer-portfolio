@@ -23,9 +23,9 @@ export function InputForm({ name, placeholder }: InputFormProps) {
   });
 
   return (
-    <div className="bg-black">
+    <div className="">
       <input
-        className={`w-full h-10 uppercase border-b border-white bg-black px-6 text-font-mobile-input placeholder:text-white/50`}
+        className={`w-full h-10 uppercase border-b-2 border-white/50 bg-transparent px-6 text-font-mobile-input placeholder:text-white/50`}
         type="text"
         placeholder={placeholder}
         name={name}

@@ -1,0 +1,68 @@
+[
+  {
+    "title": "design portfolio",
+    "screenshot": {
+      "small": "/img/thumbnail-project-1-small.webp",
+      "large": "/img/thumbnail-project-1-large.webp"
+    },
+    "tags": ["html", "css"],
+    "linkCode": "",
+    "linkDemo": "",
+    "alt": "design portfolio"
+  },
+  {
+    "title": "e-learning landing page",
+    "screenshot": {
+      "small": "/img/thumbnail-project-2-small.webp",
+      "large": "/img/thumbnail-project-2-large.webp"
+    },
+    "tags": ["html", "css"],
+    "linkCode": "",
+    "linkDemo": "",
+    "alt": "e-learning landing page"
+  },
+  {
+    "title": "todo web app",
+    "screenshot": {
+      "small": "/img/thumbnail-project-3-small.webp",
+      "large": "/img/thumbnail-project-3-large.webp"
+    },
+    "tags": ["html", "css", "javascript"],
+    "linkCode": "",
+    "linkDemo": "",
+    "alt": "todo web app"
+  },
+  {
+    "title": "enterainment web app",
+    "screenshot": {
+      "small": "/img/thumbnail-project-4-small.webp",
+      "large": "/img/thumbnail-project-4-large.webp"
+    },
+    "tags": ["html", "css", "javascript"],
+    "linkCode": "",
+    "linkDemo": "",
+    "alt": "enterainment web app"
+  },
+  {
+    "title": "memory game",
+    "screenshot": {
+      "small": "/img/thumbnail-project-5-small.webp",
+      "large": "/img/thumbnail-project-5-large.webp"
+    },
+    "tags": ["html", "css", "javascript"],
+    "linkCode": "",
+    "linkDemo": "",
+    "alt": "memory game"
+  },
+  {
+    "title": "art gallery showcase",
+    "screenshot": {
+      "small": "/img/thumbnail-project-6-small.webp",
+      "large": "/img/thumbnail-project-6-large.webp"
+    },
+    "tags": ["html", "css", "javascript"],
+    "linkCode": "",
+    "linkDemo": "",
+    "alt": "art gallery showcase"
+  }
+]
